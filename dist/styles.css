@@ -50,7 +50,7 @@ svg {
 @media (min-width: 900px) {
   .page {
     justify-content: initial;
-    background: hsl(229, 57%, 11%) url("/images/bg-desktop.png") no-repeat bottom;
+    background: hsl(229, 57%, 11%) url("/images/bg-desktop.png") no-repeat bottom/contain;
   }
 }
 

@@ -21,7 +21,7 @@
       $theme-neutral-500
       url("/images/bg-desktop.png")
       no-repeat
-      bottom;
+      bottom / contain;
   }
 }
 
