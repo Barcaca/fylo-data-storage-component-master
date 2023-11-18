@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Fylo data storage component/Frontier Mentor](https://www.frontendmentor.io/solutions/tip-calculator-appsassscss-NnY4gGJ6O_)
-- Live Site URL: [Vercel App](https://tip-calculator-app-main-blond.vercel.app)
+- Solution URL: [Fylo data storage component/Frontier Mentor](https://www.frontendmentor.io/solutions/fylo-data-storagesassscss-3isfGO85Ms)
+- Live Site URL: [Vercel App](https://fylo-data-storage-component-master-theta-seven.vercel.app)
 
 ## My process
 
