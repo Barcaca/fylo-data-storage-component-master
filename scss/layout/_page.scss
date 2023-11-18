@@ -1,0 +1,50 @@
+// ========================== //
+//           PAGE             //
+// ========================== //
+
+@use "../base" as *;
+
+/*--START LAYOUT--------------------*/
+.page {
+  @include grid($rows: auto 50px);
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background:
+    $theme-neutral-500
+    url("/images/bg-mobile.png")
+    no-repeat
+    center center / cover;
+  @include mq(min,md){
+    justify-content:  initial;
+    background:
+      $theme-neutral-500
+      url("/images/bg-desktop.png")
+      no-repeat
+      bottom;
+  }
+}
+
+/*--END LAYOUT--------------------*/
+
+/*--START FOOTER-----------*/
+.footer {
+  @include flex();
+
+  &__attribution {
+    @include font-style(12, regular);
+    color: $theme-neutral-100;
+    text-align: center;
+  }
+
+  &__link {
+    color: $theme-neutral-200;
+    text-decoration: none;
+
+    &:hover {
+      color: $theme-neutral-300;
+    }
+  }
+}
+
+/*--END FOOTER--------------------*/
